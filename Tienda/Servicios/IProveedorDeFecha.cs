@@ -1,4 +1,4 @@
-namespace Tienda.Dominio;
+namespace Tienda;
 
 public interface IProveedorDeFecha
 {

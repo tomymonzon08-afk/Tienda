@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Tienda.Dominio;
 
-namespace Tienda.Infraestructura;
+namespace Tienda;
 
 public class TiendaDbContext : DbContext
 {

@@ -1,8 +1,8 @@
-namespace Tienda.Dominio;
+namespace Tienda;
 
 public interface IReglaDeDescuento
 {
-    int Orden { get; }                 // menor = se aplica antes (ver RN-11)
+    int Orden { get; }
     bool AplicaA(Venta venta);
     decimal CalcularDescuento(Venta venta, decimal totalActual);
 }

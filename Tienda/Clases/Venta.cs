@@ -1,4 +1,4 @@
-namespace Tienda.Dominio;
+namespace Tienda;
 
 public class Venta
 {
@@ -11,4 +11,9 @@ public class Venta
 
     public List<ItemVenta> Items { get; set; } = new();
     public List<Devolucion> Devoluciones { get; set; } = new();
+
+    public static Venta Registrar(string cliente, List<ItemVenta> items)
+    {
+        throw new NotImplementedException();
+    }
 }
